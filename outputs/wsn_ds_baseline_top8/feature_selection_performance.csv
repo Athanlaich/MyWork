@@ -1,0 +1,2 @@
+﻿method,num_features,selected_features,macro_f1,weighted_f1,normal_recall,normal_false_alarm_rate,attack_macro_recall
+xgb_importance,8,"Is_CH, SCH_S, ADV_S, Expaned Energy, Data_Sent_To_BS, DATA_R, JOIN_R, Time",0.9741802702180429,0.996213500690934,0.9987208515893786,0.001279148410621378,0.9664982773882245

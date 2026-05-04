@@ -1,0 +1,28 @@
+{
+  "generation_mode": "per_class_multiplier",
+  "gen_multiplier": 1.0,
+  "normal_class_multiplier": 1.0,
+  "ctgan_epochs": 80,
+  "ctgan_verbose": true,
+  "models_dir": "models\\ctgan",
+  "ctgan_use_gpu": true,
+  "reuse_models": true,
+  "focus_features": [
+    "Is_CH",
+    "SCH_S",
+    "ADV_S",
+    "Expaned Energy",
+    "Data_Sent_To_BS",
+    "DATA_R",
+    "JOIN_R",
+    "JOIN_S",
+    "ADV_R",
+    "Rank",
+    "DATA_S",
+    "dist_CH_To_BS",
+    "Dist_To_CH",
+    "SCH_R"
+  ],
+  "split_strategy": "stratified",
+  "random_state": 42
+}

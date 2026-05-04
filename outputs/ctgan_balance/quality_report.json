@@ -1,0 +1,157 @@
+{
+  "balance_ratio": 0.3,
+  "target_count_per_minority_default": 81615,
+  "original_train_size": 299728,
+  "augmented_train_size": 361828,
+  "test_size": 74933,
+  "models_dir": "models",
+  "reuse_models": true,
+  "processed_data_file": "data\\processed\\generated_samples.csv",
+  "processed_test_file": "data\\processed\\test_set.csv",
+  "synthetic_balanced_file": "data\\synthetic\\balanced_train.csv",
+  "attack_training_config": {
+    "Blackhole": {
+      "balance_ratio": 0.1,
+      "ctgan_epochs": null,
+      "ctgan_batch_size": null,
+      "use_gpu": null
+    },
+    "Grayhole": {
+      "balance_ratio": 0.1,
+      "ctgan_epochs": null,
+      "ctgan_batch_size": null,
+      "use_gpu": null
+    },
+    "Flooding": {
+      "balance_ratio": 0.05,
+      "ctgan_epochs": null,
+      "ctgan_batch_size": null,
+      "use_gpu": null
+    },
+    "TDMA": {
+      "balance_ratio": 0.08,
+      "ctgan_epochs": null,
+      "ctgan_batch_size": null,
+      "use_gpu": null,
+      "focus_train_ratio": 0.2,
+      "focus_boundary_ratio": 0.3,
+      "focus_filter_multiplier": 2.0,
+      "disable_focus_training": true,
+      "focus_features_override": [
+        "Is_CH",
+        "SCH_S",
+        "DATA_S",
+        "DATA_R",
+        "Rank",
+        "Dist_To_CH",
+        "dist_CH_To_BS",
+        "JOIN_R"
+      ]
+    }
+  },
+  "focus_top7_features": [
+    "Is_CH",
+    "SCH_S",
+    "ADV_S",
+    "Expaned Energy",
+    "Data_Sent_To_BS",
+    "DATA_R",
+    "JOIN_R"
+  ],
+  "focus_training_enabled": true,
+  "focus_train_ratio": 0.5,
+  "focus_filter_enabled": true,
+  "focus_filter_multiplier": 3.0,
+  "focus_boundary_ratio": 0.15,
+  "data_r_log_transform": true,
+  "critical_quantile_clip": true,
+  "clip_lower_quantile": 0.005,
+  "clip_upper_quantile": 0.995,
+  "class_quality": {
+    "Blackhole": {
+      "real_count": 8039,
+      "generated_count": 19166,
+      "candidate_count": 57498,
+      "focus_replaced_rows": 28749,
+      "focus_features": [
+        "Is_CH",
+        "SCH_S",
+        "ADV_S",
+        "Expaned Energy",
+        "Data_Sent_To_BS",
+        "DATA_R",
+        "JOIN_R"
+      ],
+      "focus_train_ratio": 0.5,
+      "focus_boundary_ratio": 0.15,
+      "focus_filter_multiplier": 3.0,
+      "disable_focus_training": false,
+      "mean_feature_distance": 7.160637882308869,
+      "discriminative_auc": 0.9939118754055807
+    },
+    "Grayhole": {
+      "real_count": 11677,
+      "generated_count": 15528,
+      "candidate_count": 46584,
+      "focus_replaced_rows": 23292,
+      "focus_features": [
+        "Is_CH",
+        "SCH_S",
+        "ADV_S",
+        "Expaned Energy",
+        "Data_Sent_To_BS",
+        "DATA_R",
+        "JOIN_R"
+      ],
+      "focus_train_ratio": 0.5,
+      "focus_boundary_ratio": 0.15,
+      "focus_filter_multiplier": 3.0,
+      "disable_focus_training": false,
+      "mean_feature_distance": 4.567145561465017,
+      "discriminative_auc": 0.9706664088310655
+    },
+    "Flooding": {
+      "real_count": 2650,
+      "generated_count": 10952,
+      "candidate_count": 32856,
+      "focus_replaced_rows": 16428,
+      "focus_features": [
+        "Is_CH",
+        "SCH_S",
+        "ADV_S",
+        "Expaned Energy",
+        "Data_Sent_To_BS",
+        "DATA_R",
+        "JOIN_R"
+      ],
+      "focus_train_ratio": 0.5,
+      "focus_boundary_ratio": 0.15,
+      "focus_filter_multiplier": 3.0,
+      "disable_focus_training": false,
+      "mean_feature_distance": 5.870842523271272,
+      "discriminative_auc": 0.9917623460688952
+    },
+    "TDMA": {
+      "real_count": 5310,
+      "generated_count": 16454,
+      "candidate_count": 32908,
+      "focus_replaced_rows": 0,
+      "focus_features": [
+        "Is_CH",
+        "SCH_S",
+        "DATA_S",
+        "DATA_R",
+        "Rank",
+        "Dist_To_CH",
+        "dist_CH_To_BS",
+        "JOIN_R"
+      ],
+      "focus_train_ratio": 0.2,
+      "focus_boundary_ratio": 0.3,
+      "focus_filter_multiplier": 2.0,
+      "disable_focus_training": true,
+      "mean_feature_distance": 7.3963269365755115,
+      "discriminative_auc": 0.9976184672637951
+    }
+  }
+}

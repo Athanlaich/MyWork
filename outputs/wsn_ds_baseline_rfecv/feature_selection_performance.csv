@@ -1,0 +1,2 @@
+﻿method,num_features,selected_features,macro_f1,weighted_f1,normal_recall,normal_false_alarm_rate,attack_macro_recall
+rfecv,14,"Time, Is_CH, Dist_To_CH, ADV_S, ADV_R, JOIN_R, SCH_S, SCH_R, Rank, DATA_S, DATA_R, Data_Sent_To_BS, dist_CH_To_BS, Expaned Energy",0.9769604015633568,0.99662284643477,0.9989266915635017,0.0010733084364983325,0.9684190435471522

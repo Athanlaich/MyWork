@@ -1,0 +1,50 @@
+{
+  "data_path": "data\\raw\\WSN-DS.csv",
+  "output_dir": "outputs\\wsn_ds_baseline",
+  "random_state": 42,
+  "test_size": 0.2,
+  "split_strategy": "stratified",
+  "train_size": 299728,
+  "test_size_samples": 74933,
+  "class_distribution": {
+    "Normal": 340066,
+    "Blackhole": 10049,
+    "Grayhole": 14596,
+    "Flooding": 3312,
+    "TDMA": 6638
+  },
+  "drop_columns": [
+    "id",
+    "who CH",
+    "send_code",
+    "Attack type"
+  ],
+  "feature_columns": [
+    "Time",
+    "Is_CH",
+    "Dist_To_CH",
+    "ADV_S",
+    "ADV_R",
+    "JOIN_S",
+    "JOIN_R",
+    "SCH_S",
+    "SCH_R",
+    "Rank",
+    "DATA_S",
+    "DATA_R",
+    "Data_Sent_To_BS",
+    "dist_CH_To_BS",
+    "Expaned Energy"
+  ],
+  "imbalance_handling": "none",
+  "test_class_distribution": {
+    "Normal": 68014,
+    "Blackhole": 2010,
+    "Grayhole": 2919,
+    "Flooding": 662,
+    "TDMA": 1328
+  },
+  "zero_support_classes_in_test": [],
+  "split_leakage_risk": "possible_node_overlap",
+  "split_note": "random stratified split; optimistic risk exists when same node appears in both sets"
+}

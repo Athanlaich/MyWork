@@ -1,0 +1,16 @@
+﻿feature,ranking,selected
+ADV_R,1,True
+ADV_S,1,True
+DATA_R,1,True
+DATA_S,1,True
+Data_Sent_To_BS,1,True
+Dist_To_CH,1,True
+Expaned Energy,1,True
+Is_CH,1,True
+JOIN_R,1,True
+Rank,1,True
+SCH_R,1,True
+SCH_S,1,True
+Time,1,True
+dist_CH_To_BS,1,True
+JOIN_S,2,False

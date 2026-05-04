@@ -1,0 +1,121 @@
+model,metric,metric_label,stage,value,delta,benefit_delta,higher_is_better,improved
+Logistic Regression,accuracy,Accuracy,Original Train,0.9747240868509202,-0.004257136375161785,-0.004257136375161785,True,False
+Logistic Regression,accuracy,Accuracy,Balanced Train,0.9704669504757584,-0.004257136375161785,-0.004257136375161785,True,False
+Decision Tree,accuracy,Accuracy,Original Train,0.9861209347016668,-0.00907477346429475,-0.00907477346429475,True,False
+Decision Tree,accuracy,Accuracy,Balanced Train,0.9770461612373721,-0.00907477346429475,-0.00907477346429475,True,False
+Random Forest,accuracy,Accuracy,Original Train,0.9960231139818237,-0.0006672627547275045,-0.0006672627547275045,True,False
+Random Forest,accuracy,Accuracy,Balanced Train,0.9953558512270962,-0.0006672627547275045,-0.0006672627547275045,True,False
+LightGBM,accuracy,Accuracy,Original Train,0.9421483191651209,0.05115236277741442,0.05115236277741442,True,True
+LightGBM,accuracy,Accuracy,Balanced Train,0.9933006819425353,0.05115236277741442,0.05115236277741442,True,True
+CatBoost,accuracy,Accuracy,Original Train,0.9957695541350273,-0.0005471554588766248,-0.0005471554588766248,True,False
+CatBoost,accuracy,Accuracy,Balanced Train,0.9952223986761507,-0.0005471554588766248,-0.0005471554588766248,True,False
+XGBoost,accuracy,Accuracy,Original Train,0.9959030066859728,-0.0007072985200111681,-0.0007072985200111681,True,False
+XGBoost,accuracy,Accuracy,Balanced Train,0.9951957081659616,-0.0007072985200111681,-0.0007072985200111681,True,False
+Logistic Regression,macro_precision_from_report,Macro Precision,Original Train,0.8719120698009746,-0.030010982483214765,-0.030010982483214765,True,False
+Logistic Regression,macro_precision_from_report,Macro Precision,Balanced Train,0.8419010873177598,-0.030010982483214765,-0.030010982483214765,True,False
+Decision Tree,macro_precision_from_report,Macro Precision,Original Train,0.9661124010826004,-0.07036575128063449,-0.07036575128063449,True,False
+Decision Tree,macro_precision_from_report,Macro Precision,Balanced Train,0.8957466498019659,-0.07036575128063449,-0.07036575128063449,True,False
+Random Forest,macro_precision_from_report,Macro Precision,Original Train,0.9730318203897605,-0.005490899264688376,-0.005490899264688376,True,False
+Random Forest,macro_precision_from_report,Macro Precision,Balanced Train,0.9675409211250722,-0.005490899264688376,-0.005490899264688376,True,False
+LightGBM,macro_precision_from_report,Macro Precision,Original Train,0.6310876521387547,0.32075992095951655,0.32075992095951655,True,True
+LightGBM,macro_precision_from_report,Macro Precision,Balanced Train,0.9518475730982713,0.32075992095951655,0.32075992095951655,True,True
+CatBoost,macro_precision_from_report,Macro Precision,Original Train,0.9721972293622786,-0.005723488572167645,-0.005723488572167645,True,False
+CatBoost,macro_precision_from_report,Macro Precision,Balanced Train,0.966473740790111,-0.005723488572167645,-0.005723488572167645,True,False
+XGBoost,macro_precision_from_report,Macro Precision,Original Train,0.9745399453574427,-0.006480377669728976,-0.006480377669728976,True,False
+XGBoost,macro_precision_from_report,Macro Precision,Balanced Train,0.9680595676877137,-0.006480377669728976,-0.006480377669728976,True,False
+Logistic Regression,macro_recall_from_report,Macro Recall,Original Train,0.8606890514110201,0.015234600946746779,0.015234600946746779,True,True
+Logistic Regression,macro_recall_from_report,Macro Recall,Balanced Train,0.8759236523577669,0.015234600946746779,0.015234600946746779,True,True
+Decision Tree,macro_recall_from_report,Macro Recall,Original Train,0.9192080089206748,0.020460667198067384,0.020460667198067384,True,True
+Decision Tree,macro_recall_from_report,Macro Recall,Balanced Train,0.9396686761187422,0.020460667198067384,0.020460667198067384,True,True
+Random Forest,macro_recall_from_report,Macro Recall,Original Train,0.9753877486116795,-0.0015181823746425183,-0.0015181823746425183,True,False
+Random Forest,macro_recall_from_report,Macro Recall,Balanced Train,0.973869566237037,-0.0015181823746425183,-0.0015181823746425183,True,False
+LightGBM,macro_recall_from_report,Macro Recall,Original Train,0.5990207723040706,0.3661684235517142,0.3661684235517142,True,True
+LightGBM,macro_recall_from_report,Macro Recall,Balanced Train,0.9651891958557848,0.3661684235517142,0.3661684235517142,True,True
+CatBoost,macro_recall_from_report,Macro Recall,Original Train,0.9715313214832164,0.0012271247152911835,0.0012271247152911835,True,True
+CatBoost,macro_recall_from_report,Macro Recall,Balanced Train,0.9727584461985076,0.0012271247152911835,0.0012271247152911835,True,True
+XGBoost,macro_recall_from_report,Macro Recall,Original Train,0.970782804918325,-0.0012221330040765865,-0.0012221330040765865,True,False
+XGBoost,macro_recall_from_report,Macro Recall,Balanced Train,0.9695606719142484,-0.0012221330040765865,-0.0012221330040765865,True,False
+Logistic Regression,macro_f1,Macro F1,Original Train,0.8509669814210744,-0.0009099392199019007,-0.0009099392199019007,True,False
+Logistic Regression,macro_f1,Macro F1,Balanced Train,0.8500570422011725,-0.0009099392199019007,-0.0009099392199019007,True,False
+Decision Tree,macro_f1,Macro F1,Original Train,0.9377342628277271,-0.026154451581075544,-0.026154451581075544,True,False
+Decision Tree,macro_f1,Macro F1,Balanced Train,0.9115798112466516,-0.026154451581075544,-0.026154451581075544,True,False
+Random Forest,macro_f1,Macro F1,Original Train,0.9737949471741146,-0.0035592027200389564,-0.0035592027200389564,True,False
+Random Forest,macro_f1,Macro F1,Balanced Train,0.9702357444540757,-0.0035592027200389564,-0.0035592027200389564,True,False
+LightGBM,macro_f1,Macro F1,Original Train,0.5862763680265793,0.3720170263080892,0.3720170263080892,True,True
+LightGBM,macro_f1,Macro F1,Balanced Train,0.9582933943346685,0.3720170263080892,0.3720170263080892,True,True
+CatBoost,macro_f1,Macro F1,Original Train,0.9715224853570108,-0.0024084458869225722,-0.0024084458869225722,True,False
+CatBoost,macro_f1,Macro F1,Balanced Train,0.9691140394700882,-0.0024084458869225722,-0.0024084458869225722,True,False
+XGBoost,macro_f1,Macro F1,Original Train,0.9724283442668149,-0.00396486327340928,-0.00396486327340928,True,False
+XGBoost,macro_f1,Macro F1,Balanced Train,0.9684634809934056,-0.00396486327340928,-0.00396486327340928,True,False
+Logistic Regression,weighted_f1,Weighted F1,Original Train,0.9739800814781029,-0.003151625400063085,-0.003151625400063085,True,False
+Logistic Regression,weighted_f1,Weighted F1,Balanced Train,0.9708284560780398,-0.003151625400063085,-0.003151625400063085,True,False
+Decision Tree,weighted_f1,Weighted F1,Original Train,0.9853663319302649,-0.006684009452691875,-0.006684009452691875,True,False
+Decision Tree,weighted_f1,Weighted F1,Balanced Train,0.978682322477573,-0.006684009452691875,-0.006684009452691875,True,False
+Random Forest,weighted_f1,Weighted F1,Original Train,0.9960153714894092,-0.0006612678578780118,-0.0006612678578780118,True,False
+Random Forest,weighted_f1,Weighted F1,Balanced Train,0.9953541036315312,-0.0006612678578780118,-0.0006612678578780118,True,False
+LightGBM,weighted_f1,Weighted F1,Original Train,0.9365049930429431,0.056818121049294734,0.056818121049294734,True,True
+LightGBM,weighted_f1,Weighted F1,Balanced Train,0.9933231140922378,0.056818121049294734,0.056818121049294734,True,True
+CatBoost,weighted_f1,Weighted F1,Original Train,0.9957572503238725,-0.0005382785591144801,-0.0005382785591144801,True,False
+CatBoost,weighted_f1,Weighted F1,Balanced Train,0.995218971764758,-0.0005382785591144801,-0.0005382785591144801,True,False
+XGBoost,weighted_f1,Weighted F1,Original Train,0.995888857495762,-0.0007007583470178824,-0.0007007583470178824,True,False
+XGBoost,weighted_f1,Weighted F1,Balanced Train,0.9951880991487441,-0.0007007583470178824,-0.0007007583470178824,True,False
+Logistic Regression,attack_macro_recall,Attack Macro Recall,Original Train,0.8270926783946891,0.02052088814053088,0.02052088814053088,True,True
+Logistic Regression,attack_macro_recall,Attack Macro Recall,Balanced Train,0.84761356653522,0.02052088814053088,0.02052088814053088,True,True
+Decision Tree,attack_macro_recall,Attack Macro Recall,Original Train,0.8993224468258517,0.029619119203570965,0.029619119203570965,True,True
+Decision Tree,attack_macro_recall,Attack Macro Recall,Balanced Train,0.9289415660294227,0.029619119203570965,0.029619119203570965,True,True
+Random Forest,attack_macro_recall,Attack Macro Recall,Original Train,0.96962063571608,-0.00181318655035978,-0.00181318655035978,True,False
+Random Forest,attack_macro_recall,Attack Macro Recall,Balanced Train,0.9678074491657203,-0.00181318655035978,-0.00181318655035978,True,False
+LightGBM,attack_macro_recall,Attack Macro Recall,Original Train,0.5036609890516852,0.4537076770857157,0.4537076770857157,True,True
+LightGBM,attack_macro_recall,Attack Macro Recall,Balanced Train,0.9573686661374009,0.4537076770857157,0.4537076770857157,True,True
+CatBoost,attack_macro_recall,Attack Macro Recall,Original Train,0.9647890746640302,0.0015853658876446852,0.0015853658876446852,True,True
+CatBoost,attack_macro_recall,Attack Macro Recall,Balanced Train,0.9663744405516749,0.0015853658876446852,0.0015853658876446852,True,True
+XGBoost,attack_macro_recall,Attack Macro Recall,Original Train,0.963824023247327,-0.0014431248371524763,-0.0014431248371524763,True,False
+XGBoost,attack_macro_recall,Attack Macro Recall,Balanced Train,0.9623808984101745,-0.0014431248371524763,-0.0014431248371524763,True,False
+Logistic Regression,attack_macro_f1,Attack Macro F1,Original Train,0.8150278425645789,-0.000617748509471161,-0.000617748509471161,True,False
+Logistic Regression,attack_macro_f1,Attack Macro F1,Balanced Train,0.8144100940551078,-0.000617748509471161,-0.000617748509471161,True,False
+Decision Tree,attack_macro_f1,Attack Macro F1,Original Train,0.9238584626046822,-0.03201774456852646,-0.03201774456852646,True,False
+Decision Tree,attack_macro_f1,Attack Macro F1,Balanced Train,0.8918407180361557,-0.03201774456852646,-0.03201774456852646,True,False
+Random Forest,attack_macro_f1,Attack Macro F1,Original Train,0.9676608253546843,-0.004423172424153687,-0.004423172424153687,True,False
+Random Forest,attack_macro_f1,Attack Macro F1,Balanced Train,0.9632376529305307,-0.004423172424153687,-0.004423172424153687,True,False
+LightGBM,attack_macro_f1,Attack Macro F1,Original Train,0.4897144533100693,0.45885485710624313,0.45885485710624313,True,True
+LightGBM,attack_macro_f1,Attack Macro F1,Balanced Train,0.9485693104163124,0.45885485710624313,0.45885485710624313,True,True
+CatBoost,attack_macro_f1,Attack Macro F1,Original Train,0.9648385731414608,-0.003023310499041143,-0.003023310499041143,True,False
+CatBoost,attack_macro_f1,Attack Macro F1,Balanced Train,0.9618152626424197,-0.003023310499041143,-0.003023310499041143,True,False
+XGBoost,attack_macro_f1,Attack Macro F1,Original Train,0.9659616752626736,-0.004924748107418608,-0.004924748107418608,True,False
+XGBoost,attack_macro_f1,Attack Macro F1,Balanced Train,0.961036927155255,-0.004924748107418608,-0.004924748107418608,True,False
+Logistic Regression,macro_fpr,Macro FPR,Original Train,0.01522014869177693,-0.002327627364620102,0.002327627364620102,False,True
+Logistic Regression,macro_fpr,Macro FPR,Balanced Train,0.012892521327156828,-0.002327627364620102,0.002327627364620102,False,True
+Decision Tree,macro_fpr,Macro FPR,Original Train,0.024827147215133485,-0.017658634083237076,0.017658634083237076,False,True
+Decision Tree,macro_fpr,Macro FPR,Balanced Train,0.007168513131896407,-0.017658634083237076,0.017658634083237076,False,True
+Random Forest,macro_fpr,Macro FPR,Original Train,0.0040082771274711024,-9.79984487176986e-05,9.79984487176986e-05,False,True
+Random Forest,macro_fpr,Macro FPR,Balanced Train,0.003910278678753404,-9.79984487176986e-05,9.79984487176986e-05,False,True
+LightGBM,macro_fpr,Macro FPR,Original Train,0.07567290825485755,-0.07058295749809743,0.07058295749809743,False,True
+LightGBM,macro_fpr,Macro FPR,Balanced Train,0.005089950756760125,-0.07058295749809743,0.07058295749809743,False,True
+CatBoost,macro_fpr,Macro FPR,Original Train,0.004400316086828518,-0.0004370926184519312,0.0004370926184519312,False,True
+CatBoost,macro_fpr,Macro FPR,Balanced Train,0.003963223468376587,-0.0004370926184519312,0.0004370926184519312,False,True
+XGBoost,macro_fpr,Macro FPR,Original Train,0.004451728219470311,-1.1886045693396997e-05,1.1886045693396997e-05,False,True
+XGBoost,macro_fpr,Macro FPR,Balanced Train,0.004439842173776914,-1.1886045693396997e-05,1.1886045693396997e-05,False,True
+Logistic Regression,macro_fnr,Macro FNR,Original Train,0.13931094858897997,-0.01523460094674689,0.01523460094674689,False,True
+Logistic Regression,macro_fnr,Macro FNR,Balanced Train,0.12407634764223308,-0.01523460094674689,0.01523460094674689,False,True
+Decision Tree,macro_fnr,Macro FNR,Original Train,0.08079199107932514,-0.02046066719806723,0.02046066719806723,False,True
+Decision Tree,macro_fnr,Macro FNR,Balanced Train,0.060331323881257906,-0.02046066719806723,0.02046066719806723,False,True
+Random Forest,macro_fnr,Macro FNR,Original Train,0.024612251388320433,0.001518182374642539,-0.001518182374642539,False,False
+Random Forest,macro_fnr,Macro FNR,Balanced Train,0.026130433762962972,0.001518182374642539,-0.001518182374642539,False,False
+LightGBM,macro_fnr,Macro FNR,Original Train,0.4009792276959295,-0.36616842355171425,0.36616842355171425,False,True
+LightGBM,macro_fnr,Macro FNR,Balanced Train,0.034810804144215224,-0.36616842355171425,0.36616842355171425,False,True
+CatBoost,macro_fnr,Macro FNR,Original Train,0.02846867851678363,-0.0012271247152911453,0.0012271247152911453,False,True
+CatBoost,macro_fnr,Macro FNR,Balanced Train,0.027241553801492485,-0.0012271247152911453,0.0012271247152911453,False,True
+XGBoost,macro_fnr,Macro FNR,Original Train,0.029217195081674963,0.0012221330040767253,-0.0012221330040767253,False,False
+XGBoost,macro_fnr,Macro FNR,Balanced Train,0.03043932808575169,0.0012221330040767253,-0.0012221330040767253,False,False
+Logistic Regression,normal_false_alarm_rate,Normal False Alarm Rate,Original Train,0.004925456523656946,0.00591054782838818,-0.00591054782838818,False,False
+Logistic Regression,normal_false_alarm_rate,Normal False Alarm Rate,Balanced Train,0.010836004352045125,0.00591054782838818,-0.00591054782838818,False,False
+Decision Tree,normal_false_alarm_rate,Normal False Alarm Rate,Original Train,0.001249742700032308,0.01617314082394805,-0.01617314082394805,False,False
+Decision Tree,normal_false_alarm_rate,Normal False Alarm Rate,Balanced Train,0.01742288352398036,0.01617314082394805,-0.01617314082394805,False,False
+Random Forest,normal_false_alarm_rate,Normal False Alarm Rate,Original Train,0.0015437998059223412,0.00033816567177347157,-0.00033816567177347157,False,False
+Random Forest,normal_false_alarm_rate,Normal False Alarm Rate,Balanced Train,0.0018819654776958128,0.00033816567177347157,-0.00033816567177347157,False,False
+LightGBM,normal_false_alarm_rate,Normal False Alarm Rate,Original Train,0.019540094686388065,-0.016011409415708444,0.016011409415708444,False,True
+LightGBM,normal_false_alarm_rate,Normal False Alarm Rate,Balanced Train,0.0035286852706796212,-0.016011409415708444,0.016011409415708444,False,True
+CatBoost,normal_false_alarm_rate,Normal False Alarm Rate,Original Train,0.0014996912400387918,0.00020583997412304544,-0.00020583997412304544,False,False
+CatBoost,normal_false_alarm_rate,Normal False Alarm Rate,Balanced Train,0.0017055312141618373,0.00020583997412304544,-0.00020583997412304544,False,False
+XGBoost,normal_false_alarm_rate,Normal False Alarm Rate,Original Train,0.0013820683976828452,0.00033816567177347157,-0.00033816567177347157,False,False
+XGBoost,normal_false_alarm_rate,Normal False Alarm Rate,Balanced Train,0.0017202340694563167,0.00033816567177347157,-0.00033816567177347157,False,False

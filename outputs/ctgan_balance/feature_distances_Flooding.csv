@@ -1,0 +1,15 @@
+feature,distance,type
+DATA_R,56.74052981447184,wasserstein
+dist_CH_To_BS,14.280437779901277,wasserstein
+Data_Sent_To_BS,4.375717160301555,wasserstein
+ADV_S,3.997706010446958,wasserstein
+JOIN_R,1.6165997078159244,wasserstein
+ADV_R,0.8142821505850575,wasserstein
+Expaned Energy,0.2331536958388834,wasserstein
+SCH_S,0.07847313146905188,wasserstein
+SCH_R,0.05489587496726711,wasserstein
+Is_CH,0.0,tv
+JOIN_S,0.0,wasserstein
+Dist_To_CH,0.0,wasserstein
+DATA_S,0.0,wasserstein
+Rank,0.0,wasserstein

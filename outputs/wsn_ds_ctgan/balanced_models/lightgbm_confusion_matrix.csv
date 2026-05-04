@@ -1,0 +1,6 @@
+﻿,Normal,Blackhole,Grayhole,Flooding,TDMA
+Normal,67713,7,106,61,127
+Blackhole,0,1979,28,0,3
+Grayhole,33,57,2820,2,7
+Flooding,25,2,0,634,1
+TDMA,109,3,13,1,1202
